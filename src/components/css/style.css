@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+.font-syne{
+    font-family: Syne
+}
+.logo{
+    height: 5vh;
+    width: 10vw;
+}
+.pic{
+    height: 80%;
+    width: 80%;
+    border-radius: 5%;
+    border: solid 2px white;
+    
+}
+
+@media (max-width: 768px) {
+    .logo{
+        scale: 75%;
+        height: 6vh;
+        width: 50vw;
+    }
+}
